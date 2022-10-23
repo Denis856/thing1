@@ -1398,13 +1398,13 @@ a {
   }
 
   .cont2 {
-    height: 1500px;
+    height: 1300px;
   }
 
   .page2 .page2_items {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
-    top: 45%;
+    top: 40%;
   }
 
   .page2 .page2_items {
