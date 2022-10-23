@@ -1042,7 +1042,7 @@ a {
   }
 
   .height1 {
-    height: 130vh;
+    height: 110vh;
   }
 
 }
@@ -1171,10 +1171,6 @@ a {
     overflow: scroll;
   }
 
-  .height1 {
-    height: 120vh;
-  }
-
 }
 @media (max-width: 850px) {
   .page1 .page1_text {
@@ -1260,10 +1256,6 @@ a {
   .page1 .page1_content {
     width: 100%;
     height: 70vh;
-  }
-
-  .height1 {
-    height: 130vh;
   }
 
   .btn01 {
@@ -1420,9 +1412,6 @@ a {
     height: 1200px;
   }
 
-  .height1 {
-    height: 140vh;
-  }
 }
 @media (max-width: 400px) {
   .page0 .lorem {
