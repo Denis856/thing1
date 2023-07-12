@@ -227,6 +227,7 @@ function loadCartItems(){
          quantityElement.value = item.quantity;
       }
    }
+   count_i();
    var cartTotal = localStorage.getItem('cartTotal');
    if(cartBoxes1.length == 0) {
       document.getElementsByClassName('total__price')[0].innerText = '0р';
@@ -238,6 +239,6 @@ function loadCartItems(){
       document.getElementsByClassName('total__price')[0].innerText = cartTotal + 'р';
       document.getElementsByClassName('header__bas1')[0].innerText = cartTotal + 'р';
       document.getElementsByClassName('result span').innerText = cartTotal + 'р';
-      count2.innerText = '';
+      document.getElementsByClassName('basket201 span').innerText = cartBoxes1.length;
    }
 }
