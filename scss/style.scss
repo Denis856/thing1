@@ -888,13 +888,16 @@ body {
       &:last-child {
          margin-right: 0;
       }
+      @media(max-width: 1450px) {
+         font-size: calc(22px + (30 - 22) * ((100vw - 280px) / (1450 - 280)));
+      }
       &.active {
          color: $color;
       }
       @media(max-width: 1000px) {
-         margin: 0 15px 30px 15px;
+         margin: 0 10px 20px 10px;
          &:last-child {
-            margin: 0 15px 30px 15px;
+            margin: 0 10px 20px 10px;
          }
       }
    }

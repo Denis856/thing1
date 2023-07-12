@@ -987,15 +987,20 @@ body.active {
 .products__choice:last-child {
   margin-right: 0;
 }
+@media (max-width: 1450px) {
+  .products__choice {
+    font-size: calc(22px + 8 * (100vw - 280px) / 1170);
+  }
+}
 .products__choice.active {
   color: #E8AA31;
 }
 @media (max-width: 1000px) {
   .products__choice {
-    margin: 0 15px 30px 15px;
+    margin: 0 10px 20px 10px;
   }
   .products__choice:last-child {
-    margin: 0 15px 30px 15px;
+    margin: 0 10px 20px 10px;
   }
 }
 .products__items {
