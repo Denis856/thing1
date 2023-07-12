@@ -95,7 +95,7 @@ function addProductToCart(title, title2, price, img){
    buy.classList.remove('active');
    for(let i = 0; i < cartItemsNames.length; i++) {
       if(cartItemsNames[i].innerText == title) {
-         alert("You already added this item to cart");
+         alert("Этот тосар уже в корзине");
          return;
       }
    }
