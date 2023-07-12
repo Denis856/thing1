@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="fonts/style.css">
+   <link rel="stylesheet" href="css/fonts.css">
+   <title>Self 7</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body10">
+            <nav class="container header__body1">
+               <ul class="header__list">
+                  <li class="header__item"><a href="#" class="header__link">О нас</a></li>
+                  <li class="header__item"><a href="#" class="header__link">Ассортимент</a></li>
+                  <li class="header__item"><a href="#" class="header__link">Магазин</a></li>
+                  <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+                  <li class="header__item">
+                     <img src="img/img1/search.png" alt="search" class="header__search2">
+                  </li>
+               </ul>
+               <ul class="header__list2">
+                  <li class="header__item2">
+                     <a href="tel:+78888888888"><img src="img/img1/tel.png" alt="img"></a>
+                  </li>
+                  <li class="header__item2"><img src="img/img1/user.png" alt="img"></li>
+                  <!-- <li class="header__item2 favoritBtn"><img src="img/img1/favorit.png" alt="img"><span></span></li> -->
+                  <li class="header__item2 basket20 basket201">
+                     <img src="img/img1/basket2.png" alt="img">
+                     <span></span>
+                  </li>
+               </ul>
+               <div class="header__enter">
+                  <img src="img/img1/user.png" alt="user" class="header__user">
+                  Личный кабинет
+               </div>
+               <button class="header__burger"><span></span></button>
+            </nav>
+         </div>
+         <nav class="container header__body2">
+            <div class="header__main">
+               <a href="#" class="header__logo"><i class="header__logo0 icon-logo"></i></a>
+               <div class="header__group">
+                  <input type="text" class="header__input" placeholder="Поиск">
+                  <img src="img/img1/search.png" alt="search" class="header__search">
+               </div>
+            </div>
+            <div class="header__part2">
+               <img src="img/img1/search.png" alt="search" class="header__search2">
+               <div class="header__loc_group">
+                  <i class="header__loc icon-loc"></i>
+                  <span>Москва</span>
+               </div>
+               <div class="header__call">
+                  <p class="header__call_text">8-800-777-49-67<br><span>Заказать звонок</span></p>
+                  <i class="header__arrow icon-arrow"></i>
+               </div>
+               <!-- <i class="header__favorit icon-favorit favoritBtn"><span></span></i> -->
+               <div class="header__basket_group">
+                  <div class="header__bask_group basket20">
+                     <img src="img/img1/basket.png" alt="basket" class="header__basket">
+                     <span></span>
+                  </div>
+                  <p class="header__basket_text">
+                     <span class="header__bas1">0 р.</span><br>
+                     <span class="header__bas2">Оформить заказ</span>
+                  </p>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div class="result">
+         <button class="result__close"></button>
+         <p>В ваш заказ</p>
+         <span></span>
+      </div>
+      <div class="basket">
+         <button class="basket__close"></button>
+         <p class="basket__title">Заказы</p>
+         <div class="basket__items">
+         </div>
+         <div class="basket__total total">
+            <div class="total__title">Total</div>
+            <div class="total__price">0р</div>
+         </div>
+         <button class="basket__buy active">Купить</button>
+      </div>
+      <!-- <div class="favorits">
+         <button class="favorits__close"></button>
+         <p class="basket__title">Избранное</p>
+         <div class="favorits__items">
+         </div>
+      </div> -->
+      <main class="page">
+         <div class="between"></div>
+         <div class="home">
+            <div class="container">
+               <div class="home__body">
+                  <div class="home__block_text">
+                     <h1 class="home__title">
+                        Интернет магазин сертифицированных<br>
+                        <span>златоустовских ножей</span>
+                     </h1>
+                     <p class="home__text">
+                        <span>Добро пожаловать на официальный сайт «ЗЛАТМАКС»! В нашем магазине</span>
+                        представлен наиболее широкий выбор Златоустовских ножей от Златоустовских 
+                        Оружейных Фабрик и компаний, мы являемся официальными поставщиками.
+                     </p>
+                     <button class="home__btn">Подробнее</button>
+                  </div>
+               </div>
+               <img src="img/img2/bg1.png" alt="bg" class="home__img1">
+               <div class="home__items">
+                  <div class="home__item">
+                     <i class="home__img icon-img1"></i>
+                     <p class="home__text0">Гарантия 100% возврата денежных средств</p>
+                  </div>
+                  <div class="home__item">
+                     <i class="home__img icon-img2"></i>
+                     <p class="home__text0">Доставка по России, Казахстану и Белоруссии</p>
+                  </div>
+                  <div class="home__item">
+                     <i class="home__img icon-img3"></i>
+                     <p class="home__text0">Возможность оформление заказа без регистрации.</p>
+                  </div>
+                  <div class="home__item">
+                     <i class="home__img icon-img4"></i>
+                     <p class="home__text0">Скидки постоянным покупателям.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="catalog">
+            <div class="container">
+               <div class="catalog__items">
+                  <div class="catalog__item">
+                     <p class="catalog__title">Каталог ножей</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img1.png" alt="icon" class="catalog__img">
+                  </div>
+                  <div class="catalog__item">
+                     <p class="catalog__title">Среднеклинковое оружие</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img2.png" alt="icon" class="catalog__img">
+                  </div>
+                  <div class="catalog__item">
+                     <p class="catalog__title">Длиноклинковое оружие</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img3.png" alt="icon" class="catalog__img">
+                  </div>
+                  <div class="catalog__item">
+                     <p class="catalog__title">Сувенирные изделия</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img4.png" alt="icon" class="catalog__img">
+                  </div>
+                  <div class="catalog__item">
+                     <p class="catalog__title">Сопутствующие товары</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img5.png" alt="icon" class="catalog__img">
+                  </div>
+                  <div class="catalog__item">
+                     <p class="catalog__title">Ножевая мастерская</p>
+                     <ul class="catalog__list">
+                        <li class="catalog__item0">Разделочные</li>
+                        <li class="catalog__item0">Туристические</li>
+                        <li class="catalog__item0">Охотничьи</li>
+                     </ul>
+                     <img src="img/img3/img6.png" alt="icon" class="catalog__img">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="products">
+            <div class="container">
+               <ul class="products__list">
+                  <li class="products__choice active" data-name="all">Все</li>
+                  <li class="products__choice" data-name="ser1">Серия 1</li>
+                  <li class="products__choice" data-name="ser2">Серия 2</li>
+                  <li class="products__choice" data-name="ser3">Серия 3</li>
+                  <li class="products__choice" data-name="ser4">Серия 4</li>
+               </ul>
+               <div class="products__items">
+                  <div class="products__item item1" data-name="ser1">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 1</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser4">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 2</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser2">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса 3</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser1">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 4</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser3">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 5</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser4">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 6</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser2">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 7</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+                  <div class="products__item item1" data-name="ser3">
+                     <img src="img/img3/knight.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Нож Лиса</p>
+                     <div class="item1__info">
+                        <p class="item1__size">Нож Лиса 8</p>
+                        <p class="item1__color">Орех, Алюминий</p>
+                     </div>
+                     <div class="item1__info item1__info2">
+                        <div class="item1__stars">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                           <img src="img/img3/star.png" alt="star" class="item1__star">
+                        </div>
+                        <div class="item1__fit_back">
+                           <span>12</span> отзывов
+                        </div>
+                     </div>
+                     <div class="item1__info">
+                        <p class="item1__price">
+                           2 719 р
+                        </p>
+                        <!-- <img src="img/img3/favorit.png" alt="favorit" class="item1__favorit"> -->
+                     </div>
+                     <button class="item1__btn">
+                        В корзину <img src="img/img3/basket.png" alt="basket" class="item1__basket">
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__block_up_text">
+            <div class="container">
+               <div class="footer__block_text">
+                  <p class="footer__title1">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</p>
+                  <p class="footer__text1">
+                     Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого качества из города 
+                     оружейников - Златоуста. Златоустовские ножи известны и популярны среди потребителей 
+                     как на российским рынке, так и за рубежом: ножи охотничьи, хозяйственные, туристические, 
+                     рыбацкие, складные и метательные. Нож Златоуста - это идеальный друг и товарищ в повседневной 
+                     жизни и в экстремальных ситуациях. На многую продукцию распространяется гарантия до 10 лет - 
+                     это один из главных показателей качества. Для Вас на нашем сайте "zlatmax" предложен огромный 
+                     ассортимент Златоустовских ножей. Наши менеджеры помогут определиться и подобрать самый лучший 
+                     Златоустовский нож, ориентируясь на Ваши пожелания.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="footer__body0">
+            <div class="footer__body1 container">
+               <div class="footer__column">
+                  <p class="footer__title">ИНФОРМАЦИЯ</p>
+                  <div class="footer__block footer__column1">
+                     <a href="#" class="footer__link">Златоустовские ножи в Москве и Московской области</a>
+                     <a href="#" class="footer__link">Ножевые стали</a>
+                     <a href="#" class="footer__link">О нас</a>
+                     <a href="#" class="footer__link">Условия оплаты и доставки</a>
+                     <a href="#" class="footer__link">Политика конфиденциальности</a>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title">СЛУЖБА ПОДДЕРЖКИ</p>
+                  <div class="footer__block">
+                     <a href="#" class="footer__link">Контактная информация</a>
+                     <a href="#" class="footer__link">Возврат товара</a>
+                     <a href="#" class="footer__link">Карта сайта</a>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title">ДОПОЛНИТЕЛЬНО</p>
+                  <div class="footer__block">
+                     <a href="#" class="footer__link">Подарочные сертификаты</a>
+                     <a href="#" class="footer__link">Партнеры</a>
+                     <a href="#" class="footer__link">Товары со скидкой</a>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title">ЛИЧНЫЙ КАБИНЕТ</p>
+                  <div class="footer__block">
+                     <a href="#" class="footer__link">Личный кабинет</a>
+                     <a href="#" class="footer__link">История заказов</a>
+                     <a href="#" class="footer__link">Мои закладки</a>
+                     <a href="#" class="footer__link">Рассылка новостей</a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__body2 container">
+               <div class="footer__column">
+                  <p class="footer__title">КОНТАКТЫ</p>
+                  <div class="footer__block footer__column2">
+                     <a href="tel:88007774967" class="footer__link footer__link2">
+                        <img src="img/img2/tel.svg" alt="icon" class="footer__icon">8 (800) 777-49-67
+                     </a>
+                     <a href="#" class="footer__link footer__link2">
+                        <img src="img/img2/time.svg" alt="icon" class="footer__icon">
+                        <p>Пн-Пт<br>7:00 - 16:00 (МСК)</p>
+                     </a>
+                     <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%A8%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F,+1,+%D0%97%D0%BB%D0%B0%D1%82%D0%BE%D1%83%D1%81%D1%82,+%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.,+456209/@55.1098716,59.7053205,17z/data=!3m1!4b1!4m6!3m5!1s0x43c52f8a8c1614f9:0x92e591f8b6cf1bf0!8m2!3d55.1098686!4d59.7078954!16s%2Fg%2F11csn8w_cn?hl=RU&entry=ttu" class="footer__link footer__link2">
+                        <img src="img/img2/loc.svg" alt="icon" class="footer__icon">
+                        <p>Златоуст, ул. Шоссейная, д. 1, офис «6Б»</p>
+                     </a>
+                     <a href="mailto:info@zlatmax.ru" class="footer__link footer__link2">
+                        <img src="img/img2/mail.svg" alt="icon" class="footer__icon">
+                        <p>info@zlatmax.ru</p>
+                     </a>
+                     <ul class="footer__social">
+                        <li class="footer__item0"><a href="#"><img src="img/img2/soc1.svg" alt="icon"></a></li>
+                        <li class="footer__item0"><a href="#"><img src="img/img2/soc2.svg" alt="icon"></a></li>
+                        <li class="footer__item0"><a href="#"><img src="img/img2/soc3.svg" alt="icon"></a></li>
+                        <li class="footer__item0"><a href="#"><img src="img/img2/soc4.svg" alt="icon"></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title">ПОЛЕЗНЫЕ ССЫЛКИ</p>
+                  <div class="footer__block">
+                     <a href="#" class="footer__link">Способы оплаты и доставки</a>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title">НАША ГАРАНТИЯ</p>
+                  <div class="footer__block footer__column3">
+                     <p class="footer__link">
+                        Недовольны своей покупкой? Вы можете вернуть ее в течении 30 дней с даты получения, 
+                        согласно <span>нашим правилам</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <p class="footer__title footer__title2">НОВОСТНАЯ РАССЫЛКА</p>
+                  <div class="footer__block">
+                     <p class="footer__link">Подпишитесь прямо сейчас!</p>
+                     <div class="footer__group">
+                        <input type="text" class="footer__input0" placeholder="example@gmail.com">
+                        <button class="footer__btn0"><i class="footer__icon0 icon-arrow"></i></button>
+                     </div>
+                     <div class="footer__checkbox">
+                        <input id="check" type="checkbox" class="footer__input2">
+                        <label for="check" class="footer__label">
+                           Подтверждая заказ, я принимаю условия пользовательского соглашения
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__body3 container">
+               <p class="footer__text01">
+                  Все материалы, размещенные на сайте, носят справочный характер и не являются 
+                  публичной офертой, определяемойположениями Статьи 437 Гражданского кодекса Российской Федерации. 
+                  При копировании материалов гиперссылка на www.zlatmax.ru обязательна!
+               </p>
+               <p class="footer__text02">
+                  Златоустовские ножи www.zlatmax.ru ©
+               </p>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+   <script src="js/show.js"></script>
+   <script src="js/add.js"></script>
+   <script src="js/del_bas.js"></script>
+</body>
+</html>
