@@ -1090,6 +1090,10 @@ body {
       position: relative;
       top: 30px;
       left: 30px;
+      @media(max-width: 600px) {
+         top: 50px;
+         left: 10px;
+      }
       &::before,
       &::after {
          position: absolute;

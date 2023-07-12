@@ -1249,6 +1249,12 @@ body.active {
   top: 30px;
   left: 30px;
 }
+@media (max-width: 600px) {
+  .basket__close {
+    top: 50px;
+    left: 10px;
+  }
+}
 .basket__close::before, .basket__close::after {
   position: absolute;
   content: "";
